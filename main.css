@@ -1,0 +1,107 @@
+body {
+	margin: 0;
+	padding: 80px;
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+}
+
+.navbar {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	padding: 10px;
+	background-color: lightgrey;
+}
+
+.navbar h1 {
+	display: inline-block;
+	margin: 0;
+	font-size: 18px;
+}
+
+.nav-links {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	font-size: 18px;
+}
+
+.nav-links a {
+	text-decoration: none;
+	color: purple;
+	margin: 5px;
+}
+
+.search-bar {
+	margin-bottom: 30px;
+}
+
+.search-label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+.search-field {
+	width: 400px;
+	height: 30px;
+	font-size: 16px;
+	padding-left: 5px;
+}
+
+.button {
+	width: 30px;
+	height: 30px;
+	vertical-align: bottom;
+	padding: 1px 1px 1px 2px;
+}
+
+.search-field, .button {
+	border: 1px solid grey;
+	border-radius: 5px;
+}
+
+.page-turner {
+	display: inline-block;
+	font-size: 0;
+	border: 1px solid grey;
+	border-radius: 3px;
+	margin-bottom: 30px;
+}
+
+.page-button {
+	text-decoration: none;
+}
+
+.pages {
+	border-left: solid 1px grey;
+	border-right: solid 1px grey;
+}
+
+.page-button, .pages {
+	display: inline-block;
+	font-size: 16px;
+	padding: 7.5px 25px 7.5px 25px
+}
+
+.joblist {
+	list-style-type: none;
+	padding: 0;
+}
+
+.list-text {
+	font-weight: 500;
+	color: grey;
+}
+
+.job {
+	padding: 5px 0 5px 0px;
+}
+
+.jobtitle {
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	font-weight: bold;
+	color: blue;
+}
